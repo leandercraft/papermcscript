@@ -1,0 +1,14 @@
+command /Test:
+	trigger:
+		send "Test" to player
+
+
+on rightclick:
+	if player's held item is netherite sword:
+		if player's offhand item is apple:
+			create explosion of force 10 at player
+
+command /Lee:
+	trigger:
+		give player netherite sword of sharpness 255
+		
